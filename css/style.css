@@ -1,3 +1,27 @@
+@import url("./normalize.css");
 
-@import url('./normalize.css');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+:root {
+  /* Primary */
+  --primary-Strong-Cyan: hsl(171, 66%, 44%);
+  --primary-Light-Blue: hsl(233, 100%, 69%);
+
+  /* Neutral */
+
+  --neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --neutral-Light-Blue: hsl(233, 100%, 69%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
