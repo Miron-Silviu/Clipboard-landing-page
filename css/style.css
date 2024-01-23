@@ -29,6 +29,6 @@ body {
 
 @media (min-width:320px){
   header{
-    background: url(/images/bg-header-mobile.png);
+    background: url(../images/bg-header-mobile.png);
   }
 }
