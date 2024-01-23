@@ -25,3 +25,10 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
 }
+
+
+@media (min-width:320px){
+  header{
+    background: url(/images/bg-header-mobile.png);
+  }
+}
