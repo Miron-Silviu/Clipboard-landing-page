@@ -10,6 +10,7 @@
   /* Primary */
   --primary-Strong-Cyan: hsl(171, 66%, 44%);
   --primary-Light-Blue: hsl(233, 100%, 69%);
+  --primary--grey: rgb(174, 172, 172);
 
   /* Neutral */
 
@@ -17,19 +18,37 @@
   --neutral-Light-Blue: hsl(233, 100%, 69%);
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: "Bai Jamjuree", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 100px) {
   header {
-    background: url('../images/bg-header-mobile.png');
-    background-repeat:no-repeat;
-   background-size:100%;
+    background: url("../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .header--title {
+    font-weight: 600;
+  }
+  .header--image {
+    width: 10rem;
+    margin: 10rem auto 2rem;
+  }
+  .header--description {
+    font-weight: 400;
+    color: var(--primary--grey);
+  }
+  .buttons--header {
+    flex-direction: column;
+  }
+  .download--ios {
+    letter-spacing: 1.5px;
+    background: var(--primary-Strong-Cyan);
+  }
+  .download--mac {
+    background: var(--neutral-Light-Blue);
+    letter-spacing: 1.5px;
   }
 }
