@@ -16,6 +16,10 @@
 
   --neutral-Dark-Grayish-Blue: hsl(210, 10%, 33%);
   --neutral-Light-Blue: hsl(233, 100%, 69%);
+
+  /* letter Spacing */
+
+  --letter-spacing: 1.5px;
 }
 
 body {
@@ -23,7 +27,7 @@ body {
   font-size: 15px;
 }
 
-@media (min-width: 100px) {
+@media (width < 600px) {
   header {
     background: url("../images/bg-header-mobile.png");
     background-repeat: no-repeat;
@@ -43,13 +47,20 @@ body {
   }
   .buttons--header {
     flex-direction: column;
+    display: flex;
   }
   .download--ios {
-    letter-spacing: 1.5px;
+    letter-spacing: var(--letter-spacing);
     background: var(--primary-Strong-Cyan);
   }
   .download--mac {
     background: var(--neutral-Light-Blue);
-    letter-spacing: 1.5px;
+    letter-spacing: var(--letter-spacing);
+  }
+}
+
+@media (width >= 600px) {
+  .buttons--header {
+    margin: auto;
   }
 }
