@@ -20,6 +20,9 @@
   /* letter Spacing */
 
   --letter-spacing: 1.5px;
+
+  /* button margin */
+  --margin-button: 0 3rem;
 }
 
 body {
@@ -52,15 +55,39 @@ body {
   .download--ios {
     letter-spacing: var(--letter-spacing);
     background: var(--primary-Strong-Cyan);
+    margin: var(--margin-button);
   }
   .download--mac {
     background: var(--neutral-Light-Blue);
     letter-spacing: var(--letter-spacing);
+    margin: var(--margin-button);
   }
 }
 
-@media (width >= 600px) {
+@media (width >= 600px) and (width < 1024px) {
+  header {
+    background: url("../images/bg-header-desktop.png");
+  }
   .buttons--header {
     margin: auto;
+    background: red;
   }
+  .download--ios {
+    background: var(--primary-Strong-Cyan);
+    letter-spacing: var(--letter-spacing);
+    padding: 1rem 2rem;
+    margin: 0 1.5rem;
+  }
+  .download--mac {
+    background: var(--primary-Light-Blue);
+    letter-spacing: var(--letter-spacing);
+    padding: 1rem 2rem;
+  }
+  .header--image {
+    width: 10rem;
+    margin: 4rem auto;
+  }
+}
+
+@media (width >= 1024px) {
 }
