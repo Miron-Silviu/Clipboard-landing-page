@@ -31,6 +31,7 @@ body {
 }
 
 @media (width < 600px) {
+  /* header */
   header {
     background: url("../images/bg-header-mobile.png");
     background-repeat: no-repeat;
@@ -62,15 +63,32 @@ body {
     letter-spacing: var(--letter-spacing);
     margin: var(--margin-button);
   }
+  /* Main Container */
+  .main--container {
+    margin: 7rem 0;
+  }
+
+  .snippets--title {
+    text-align: center;
+    font-weight: 600;
+    padding: 2rem 1.7rem 1rem;
+  }
+  .snippets--description {
+    font-weight: 400;
+    padding: 0 1rem;
+    color: var(--primary--grey);
+  }
 }
 
-@media (width >= 600px) and (width < 1024px) {
+@media (width >= 600px) {
+  /* header */
   header {
     background: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   .buttons--header {
     margin: auto;
-    background: red;
   }
   .download--ios {
     background: var(--primary-Strong-Cyan);
@@ -87,7 +105,5 @@ body {
     width: 10rem;
     margin: 4rem auto;
   }
-}
-
-@media (width >= 1024px) {
+  /* Main Container */
 }
