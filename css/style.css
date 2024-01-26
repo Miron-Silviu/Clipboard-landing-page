@@ -23,6 +23,7 @@
 
   /* button margin */
   --margin-button: 0 3rem;
+  --button-padding: 1rem 0;
 }
 
 body {
@@ -57,11 +58,13 @@ body {
     letter-spacing: var(--letter-spacing);
     background: var(--primary-Strong-Cyan);
     margin: var(--margin-button);
+    padding: var(--button-padding);
   }
   .download--mac {
     background: var(--neutral-Light-Blue);
     letter-spacing: var(--letter-spacing);
     margin: var(--margin-button);
+    padding: var(--button-padding);
   }
   /* Main Container */
   .main--container {
@@ -105,5 +108,31 @@ body {
     width: 10rem;
     margin: 4rem auto;
   }
+  .header--title {
+    font-weight: 600;
+  }
+  .header--description {
+    color: var(--primary--grey);
+  }
+
   /* Main Container */
+
+  .main--container {
+    margin: 7rem 0;
+  }
+  .snippets--title {
+    text-align: center;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .snippets--description {
+    color: var(--primary--grey);
+    padding: 0 3rem;
+  }
+}
+
+@media (width > 1024px) {
+  .snippets--description {
+    padding: 0 30%;
+  }
 }
