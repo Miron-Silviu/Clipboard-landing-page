@@ -71,15 +71,34 @@ body {
     margin: 7rem 0;
   }
 
-  .snippets--title {
+  .snippets--main--title {
     text-align: center;
     font-weight: 600;
     padding: 2rem 1.7rem 1rem;
   }
-  .snippets--description {
+  .snippets--main--description {
     font-weight: 400;
     padding: 0 1rem;
     color: var(--primary--grey);
+  }
+  .snippets {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 4rem 0;
+  }
+  .snippet--img {
+    padding: 0 1rem;
+  }
+  .snippet-info {
+    padding: 4rem 0;
+  }
+  .snippets--title {
+    font-weight: 600;
+    padding: 1rem 0;
+  }
+  .snippet--description {
+    color: var(--primary--grey);
+    padding: 0 2rem;
   }
 }
 
@@ -120,12 +139,12 @@ body {
   .main--container {
     margin: 7rem 0;
   }
-  .snippets--title {
+  .snippets--main--title {
     text-align: center;
     font-weight: 600;
     padding: 1rem;
   }
-  .snippets--description {
+  .snippets--main--description {
     color: var(--primary--grey);
     padding: 0 3rem;
   }
