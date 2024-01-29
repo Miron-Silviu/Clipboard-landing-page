@@ -29,9 +29,10 @@
 body {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 15px;
+  width: 100%;
 }
 
-@media (width < 600px) {
+@media (width <=600px) {
   /* header */
   header {
     background: url("../images/bg-header-mobile.png");
@@ -70,6 +71,7 @@ body {
   .main--container {
     margin: 7rem 0;
   }
+  /* Snippet */
 
   .snippets--main--title {
     text-align: center;
@@ -100,6 +102,9 @@ body {
     color: var(--primary--grey);
     padding: 0 2rem;
   }
+
+  /* Clipboard */
+
   .clipboard {
     margin: 0 1rem;
   }
@@ -161,27 +166,70 @@ body {
     font-weight: 600;
     padding: 1rem;
   }
+  /* Snippet */
+
   .snippets--main--description {
     color: var(--primary--grey);
     padding: 0 3rem;
   }
   .snippets {
     display: flex;
+    margin: auto;
     margin: 7rem 2rem 0 0;
     justify-content: space-evenly;
+    width: 100%;
+  }
+  .snippet-info {
+    margin: 0;
   }
   .snippet--img {
-    max-height: 40rem;
-    max-width: 30rem;
+    max-height: 25rem;
+    max-width: 25rem;
     overflow-x: clip;
   }
 
   .snippets--title {
-    font-weight: 600;
+    font-weight: 400;
     padding-left: 5rem;
   }
   .snippet--description {
     color: var(--primary--grey);
     padding: 0 0 3rem 5rem;
+  }
+  /* Clipboard Container */
+
+  .clipboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 6rem;
+
+    width: 100%;
+  }
+
+  .clipboard--title {
+    text-align: center;
+    font-weight: 600;
+  }
+  .clipboard--description {
+    text-align: center;
+    color: var(--primary--grey);
+    max-width: 100%;
+    padding: 1rem 5rem 5rem 5rem;
+  }
+  .clipboard--image {
+    width: 35rem;
+    height: 25rem;
+  }
+}
+
+@media (width >=1024px) {
+  .clipboard--description {
+    text-align: center;
+    color: var(--primary--grey);
+    max-width: 40%;
+    padding: 1rem 5rem 5rem 5rem;
   }
 }
