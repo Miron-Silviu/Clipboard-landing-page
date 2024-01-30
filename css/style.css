@@ -140,6 +140,14 @@ body {
   .planing {
     text-align: center;
   }
+  .planing--title {
+    padding: 2rem 0;
+    font-weight: 600;
+  }
+  .planing--description {
+    padding: 0 2rem 2rem;
+    color: var(--primary--grey);
+  }
 }
 
 @media (width >= 600px) {
@@ -248,6 +256,24 @@ body {
   }
   .supercharge--title {
     font-weight: 600;
+  }
+  /* Planing */
+  .planing {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 2rem 4rem;
+    padding: 3rem;
+    gap: 1rem;
+  }
+  .planing--info--container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .planing--image {
+    margin: auto;
   }
 }
 
