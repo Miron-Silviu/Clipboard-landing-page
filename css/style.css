@@ -134,6 +134,12 @@ body {
     color: var(--primary--grey);
     padding: 1rem 3rem;
   }
+
+  /*Planing  */
+
+  .planing {
+    text-align: center;
+  }
 }
 
 @media (width >= 600px) {
