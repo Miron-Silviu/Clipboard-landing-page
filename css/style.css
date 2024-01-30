@@ -122,6 +122,18 @@ body {
     width: 100%;
     margin: auto;
   }
+  /* Supercharge */
+  .supercharge {
+    text-align: center;
+  }
+  .supercharge--title {
+    padding: 0 2rem;
+    font-weight: 600;
+  }
+  .supercharge--description {
+    color: var(--primary--grey);
+    padding: 1rem 3rem;
+  }
 }
 
 @media (width >= 600px) {
@@ -222,6 +234,14 @@ body {
   .clipboard--image {
     width: 35rem;
     height: 25rem;
+  }
+  .supercharge--description {
+    color: var(--primary--grey);
+    letter-spacing: var(--letter-spacing);
+    padding: 1rem 0;
+  }
+  .supercharge--title {
+    font-weight: 600;
   }
 }
 
