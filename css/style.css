@@ -148,6 +148,17 @@ body {
     padding: 0 2rem 2rem;
     color: var(--primary--grey);
   }
+  /* Companies */
+
+  .planing--companyes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company--image {
+    width: 13rem;
+    padding: 3rem 2rem;
+  }
 }
 
 @media (width >= 600px) {
@@ -264,7 +275,7 @@ body {
     justify-content: space-between;
     margin: 2rem 4rem;
     padding: 3rem;
-    gap: 1rem;
+    gap: 2rem;
   }
   .planing--info--container {
     display: flex;
@@ -274,6 +285,12 @@ body {
   }
   .planing--image {
     margin: auto;
+  }
+  .planing--title {
+    font-weight: 600;
+  }
+  .planing--description {
+    color: var(--primary--grey);
   }
 }
 
