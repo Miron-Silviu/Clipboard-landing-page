@@ -271,7 +271,6 @@ body {
   /* Planing */
   .planing {
     display: flex;
-
     justify-content: space-between;
     margin: 2rem 4rem;
     padding: 3rem;
@@ -292,6 +291,16 @@ body {
   .planing--description {
     color: var(--primary--grey);
   }
+  /* Planing Companyes */
+  .planing--companyes {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+  .company--image {
+    padding: 1rem;
+    width: 7rem;
+  }
 }
 
 @media (width >=1024px) {
@@ -300,5 +309,14 @@ body {
     color: var(--primary--grey);
     max-width: 40%;
     padding: 1rem 5rem 5rem 5rem;
+  }
+  .planing--companyes {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .company--image {
+    width: 7rem;
+    padding: 1rem 0;
   }
 }
