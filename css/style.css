@@ -173,19 +173,23 @@ body {
     padding: 0 1rem;
     letter-spacing: var(--letter-spacing);
   }
-  .download--ios {
+  .download--ios--clipboard {
     letter-spacing: var(--letter-spacing);
     background: var(--primary-Strong-Cyan);
     margin: var(--margin-button);
   }
-  .download--mac {
+  .download--mac--clipboard {
     background: var(--neutral-Light-Blue);
     letter-spacing: var(--letter-spacing);
     margin: var(--margin-button);
   }
-  .download--ios,
-  .download--mac {
-    padding: 1rem 8.5rem;
+  .download--ios--clipboard,
+  .download--mac--clipboard {
+    padding: var(--button-padding);
+  }
+  .clipboard--buttons {
+    flex-direction: column;
+    display: flex;
   }
 }
 
