@@ -159,6 +159,34 @@ body {
     width: 13rem;
     padding: 3rem 2rem;
   }
+  /* Clipboard Buttons Container */
+  .clipboard--buttons--container {
+    margin: 4rem 0;
+    text-align: center;
+  }
+  .clipboard--buttons-title {
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+  }
+  .clipboard--buttons--description {
+    color: var(--primary--grey);
+    padding: 0 1rem;
+    letter-spacing: var(--letter-spacing);
+  }
+  .download--ios {
+    letter-spacing: var(--letter-spacing);
+    background: var(--primary-Strong-Cyan);
+    margin: var(--margin-button);
+  }
+  .download--mac {
+    background: var(--neutral-Light-Blue);
+    letter-spacing: var(--letter-spacing);
+    margin: var(--margin-button);
+  }
+  .download--ios,
+  .download--mac {
+    padding: 1rem 4rem;
+  }
 }
 
 @media (width >= 600px) {
@@ -236,13 +264,12 @@ body {
   /* Clipboard Container */
 
   .clipboard {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: auto;
     margin-top: 6rem;
-
+    margin: auto;
     width: 100%;
   }
 
