@@ -332,6 +332,37 @@ body {
     padding: 1rem;
     width: 7rem;
   }
+  /* Clipboard */
+  .clipboard--buttons--container {
+    margin-top: 7rem;
+    text-align: center;
+  }
+  .clipboard--buttons-title {
+    font-size: 600;
+    padding: 1rem 0;
+  }
+  .clipboard--buttons--description {
+    color: var(--primary--grey);
+    padding: 0 1rem 2rem 1rem;
+  }
+  .download--ios--clipboard {
+    letter-spacing: var(--letter-spacing);
+    background: var(--primary-Strong-Cyan);
+    margin: 0 1rem;
+  }
+  .download--mac--clipboard {
+    background: var(--neutral-Light-Blue);
+    letter-spacing: var(--letter-spacing);
+  }
+  .download--ios--clipboard,
+  .download--mac--clipboard {
+    padding: 1rem 2rem;
+  }
+  .clipboard--buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 @media (width >=1024px) {
