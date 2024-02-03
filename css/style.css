@@ -417,6 +417,9 @@ body {
     text-decoration: none;
     color: rgb(59, 59, 59);
   }
+  .social--media--link {
+    padding: 0 1rem;
+  }
 }
 
 @media (width >=1024px) {
