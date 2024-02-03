@@ -406,7 +406,6 @@ body {
   }
   .footer--list--container {
     margin-right: 10%;
-
     text-align: left;
     display: flex;
     width: 50%;
@@ -432,6 +431,10 @@ body {
   }
   .social--media--link {
     padding: 0 1rem;
+    cursor: pointer;
+  }
+  .social--media--link:hover {
+    color: green;
   }
 }
 
