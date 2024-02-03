@@ -405,20 +405,36 @@ body {
     width: 3rem;
   }
   .footer--list--container {
-    margin-right: 30%;
+    margin-right: 10%;
+    text-align: left;
+    display: flex;
+    width: 50%;
   }
   ul li {
-    display: inline-flex;
-    margin: 1rem;
     list-style: none;
-    padding: 0 1rem;
+    padding: 0.5rem 0;
+    cursor: pointer;
+  }
+
+  .first--ul,
+  .second--ul,
+  .third--ul {
+    margin: 2rem 0;
+    padding: 0 2rem;
   }
   a {
     text-decoration: none;
     color: rgb(59, 59, 59);
   }
+  a:hover {
+    color: rgb(0, 184, 0);
+  }
   .social--media--link {
     padding: 0 1rem;
+    cursor: pointer;
+  }
+  .social--media--link:hover {
+    color: green;
   }
 }
 
