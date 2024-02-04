@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://miron-silviu.github.io/Clipboard-landing-page/)
+- Live Site URL: [](https://miron-silviu.github.io/Clipboard-landing-page/)
 
 ## My process
 
