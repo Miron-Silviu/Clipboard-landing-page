@@ -368,7 +368,7 @@ body {
     text-align: center;
   }
   .clipboard--buttons-title {
-    font-size: 600;
+    font-weight: 600;
     padding: 1rem 0;
   }
   .clipboard--buttons--description {
