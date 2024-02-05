@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Create your own history">
+    <meta name="description" content="Create your own history" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-  
+
     <title>Clipboard landing page</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <!-- header -->
     <header class="d-flex justify-content-center flex-column">
@@ -55,159 +56,166 @@
         </button>
       </div>
     </header>
+    <!-- main -->
     <main class="main--container">
-      <section class="snippets--section">
-        <div class="snippets--title--container">
-          <h2 class="snippets--main--title">Keep track of your snippets</h2>
-          <p class="text-center snippets--main--description">
-            Clipboard instantly stores any item you copy in the cloud, meaning
-            you can access your snippets immediately on all your devices. Our
-            Mac iOS app will help you organize everything.
+      <div class="snippets--title--container">
+        <h2 class="snippets--main--title">Keep track of your snippets</h2>
+        <p class="text-center snippets--main--description">
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac iOS
+          app will help you organize everything.
+        </p>
+      </div>
+      <div class="snippets">
+        <img
+          class="w-100 snippet--img"
+          src="./images/image-computer.png"
+          alt="Computer"
+        />
+        <div class="snippet-info">
+          <h3 class="snippets--title">Quick Search</h3>
+          <p class="snippet--description">
+            Easily search your snippets by content category, web address,
+            application, and more.
+          </p>
+          <h3 class="snippets--title">iCloud Sync</h3>
+          <p class="snippet--description">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
+          <h3 class="snippets--title">Complete History</h3>
+          <p class="snippet--description">
+            Retrieve any snippets from the first moment you started using the
+            app.
           </p>
         </div>
-        <div class="snippets">
+      </div>
+      <div class="clipboard">
+        <h2 class="clipboard--title">Access Clipboard Anywhere</h2>
+        <p class="clipboard--description">
+          Whether you're on the go, or at your computer, you can access all your
+          Clipboard snippets in a few simple clicks.
+        </p>
+        <img
+          class="clipboard--image"
+          src="./images/image-devices.png"
+          alt="device"
+        />
+      </div>
+      <div class="text-center my-5 supercharge">
+        <h2 class="supercharge--title">Supercharge your workflow</h2>
+        <p class="supercharge--description">
+          We got the tool to boos your productivity.
+        </p>
+      </div>
+      <div class="planing">
+        <div class="planing--info--container">
           <img
-            class="w-100 snippet--img"
-            src="./images/image-computer.png"
-            alt="Computer"
+            class="planing--image"
+            src="./images/icon-blacklist.svg"
+            alt="blacklists"
           />
-          <div class="snippet-info">
-            <h3 class="snippets--title">Quick Search</h3>
-            <p class="snippet--description">
-              Easily search your snippets by content category, web address,
-              application, and more.
-            </p>
-            <h3 class="snippets--title">iCloud Sync</h3>
-            <p class="snippet--description">
-              Instantly saves and syncs snippets across all your devices.
-            </p>
-            <h3 class="snippets--title">Complete History</h3>
-            <p class="snippet--description">
-              Retrieve any snippets from the first moment you started using the
-              app.
-            </p>
-          </div>
-        </div>
-        <div class="clipboard">
-          <h2 class="clipboard--title">Access Clipboard Anywhere</h2>
-          <p class="clipboard--description">
-            Whether you're on the go, or at your computer, you can access all
-            your Clipboard snippets in a few simple clicks.
-          </p>
-          <img
-            class="clipboard--image"
-            src="./images/image-devices.png"
-            alt="device"
-          />
-        </div>
-        <div class="text-center my-5 supercharge">
-          <h2 class="supercharge--title">Supercharge your workflow</h2>
-          <p class="supercharge--description">
-            We got the tool to boos your productivity.
+          <h3 class="planing--title">Create blacklists</h3>
+          <p class="planing--description">
+            Ensure sensitive information never makes its way to your clipboard
+            by excluding certain sources.
           </p>
         </div>
-
-        <div class="planing">
-          <div class="planing--info--container">
-            <img
-              class="planing--image"
-              src="./images/icon-blacklist.svg"
-              alt="blacklists"
-            />
-            <h3 class="planing--title">Create blacklists</h3>
-            <p class="planing--description">
-              Ensure sensitive information never makes its way to your clipboard
-              by excluding certain sources.
-            </p>
-          </div>
-          <div class="planing--info--container">
-            <img
-              class="planing--image"
-              src="./images/icon-text.svg"
-              alt="text"
-            />
-            <h3 class="planing--title">Plain text snippets</h3>
-            <p class="planing--description">
-              Remove unwanted formatting from copied text for a consistent look.
-            </p>
-          </div>
-          <div class="planing--info--container">
-            <img
-              class="planing--image"
-              src="./images/icon-preview.svg"
-              alt="preview"
-            />
-            <h3 class="planing--title">Snake preview</h3>
-            <p class="planing--description">
-              Quick preview of all snippets on your Clipboard fo easy access.
-            </p>
-          </div>
-        </div>
-        <div class="planing--companyes">
-          <img
-            class="company--image"
-            src="./images/logo-google.png"
-            alt="google"
-          />
-          <img class="company--image" src="./images/logo-ibm.png" alt="ibm" />
-          <img
-            class="company--image"
-            src="./images/logo-microsoft.png"
-            alt="microsoft"
-          />
-          <img src="./images/logo-hp.png" alt="" />
-          <img
-            class="company--image"
-            src="./images/logo-vector-graphics.png"
-            alt="vector"
-          />
-        </div>
-        <div class="clipboard--buttons--container">
-          <h2 class="clipboard--buttons-title">Clipboard for iOS and Mac OS</h2>
-          <p class="clipboard--buttons--description">
-            Available for free on the App Store. Download for Mac or iOS, sync
-            with iCloud and you're ready to start adding to you clipboard.
+        <div class="planing--info--container">
+          <img class="planing--image" src="./images/icon-text.svg" alt="text" />
+          <h3 class="planing--title">Plain text snippets</h3>
+          <p class="planing--description">
+            Remove unwanted formatting from copied text for a consistent look.
           </p>
-          <div class="clipboard--buttons">
-            <button
-              class="my-3 rounded-pill btn btn-primary border-0 download--ios--clipboard"
-              type="button"
-            >
-              Download for iOS
-            </button>
-            <button
-              class="my-3 rounded-pill btn btn-primary border-0 download--mac--clipboard"
-              type="button"
-            >
-              Download for Mac
-            </button>
-          </div>
         </div>
+        <div class="planing--info--container">
+          <img
+            class="planing--image"
+            src="./images/icon-preview.svg"
+            alt="preview"
+          />
+          <h3 class="planing--title">Snake preview</h3>
+          <p class="planing--description">
+            Quick preview of all snippets on your Clipboard fo easy access.
+          </p>
+        </div>
+      </div>
+      <div class="planing--companyes">
+        <img
+          class="company--image"
+          src="./images/logo-google.png"
+          alt="google"
+        />
+        <img class="company--image" src="./images/logo-ibm.png" alt="ibm" />
+        <img
+          class="company--image"
+          src="./images/logo-microsoft.png"
+          alt="microsoft"
+        />
+        <img src="./images/logo-hp.png" alt="" />
+        <img
+          class="company--image"
+          src="./images/logo-vector-graphics.png"
+          alt="vector"
+        />
+      </div>
+      <div class="clipboard--buttons--container">
+        <h2 class="clipboard--buttons-title">Clipboard for iOS and Mac OS</h2>
+        <p class="clipboard--buttons--description">
+          Available for free on the App Store. Download for Mac or iOS, sync
+          with iCloud and you're ready to start adding to you clipboard.
+        </p>
+        <div class="clipboard--buttons">
+          <button
+            class="my-3 rounded-pill btn btn-primary border-0 download--ios--clipboard"
+            type="button"
+          >
+            Download for iOS
+          </button>
+          <button
+            class="my-3 rounded-pill btn btn-primary border-0 download--mac--clipboard"
+            type="button"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </div>
     </main>
-     <!-- footer -->
-     <footer class="footer--container">
-      <img class="footer--image" src="./images/logo.svg" alt="logo" />
+    <!-- footer -->
+    <footer class="footer--container">
+      <img class="footer--image" src="./images/logo.svg" alt="Logo" />
       <div class="footer--list--container">
-    
-          <ul class="first--ul">
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-          
-            <ul class="second--ul">
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Press Kit</a></li>
-            </ul>
-           <ul class="third--ul">
-            <li><a href="#">Install Guide</a></li>
-           </ul>
+        <ul class="first--ul">
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="second--ul">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Press Kit</a></li>
+        </ul>
+        <ul class="third--ul">
+          <li><a href="#">Install Guide</a></li>
+        </ul>
       </div>
       <div class="footer--social--media">
-        <a href="#"><img class="social--media--link" src="./images/icon-facebook.svg" alt="Facebook" /></a>
-        <a href="#"><img class="social--media--link" src="./images/x-twitter.svg" alt="Twitter" /></a>
-        <a href="#"><img class="social--media--link"  src="./images/icon-instagram.svg" alt="Instagram" /></a>
+        <a href="#"
+          ><img
+            class="social--media--link"
+            src="./images/icon-facebook.svg"
+            alt="Facebook"
+        /></a>
+        <a href="#"
+          ><img
+            class="social--media--link"
+            src="./images/x-twitter.svg"
+            alt="Twitter"
+        /></a>
+        <a href="#"
+          ><img
+            class="social--media--link"
+            src="./images/icon-instagram.svg"
+            alt="Instagram"
+        /></a>
       </div>
     </footer>
- 
   </body>
 </html>
