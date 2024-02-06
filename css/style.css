@@ -72,7 +72,7 @@ body {
   }
   /* Main Container */
   .main--container {
-    margin: 7rem 0;
+    margin: 7rem 0 1rem 0;
   }
   /* Snippet */
 
@@ -196,7 +196,7 @@ body {
   }
   /* footer */
   .footer--container {
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
     display: flex;
     flex-direction: column;
     background: rgb(233, 231, 231);
