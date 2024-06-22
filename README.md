@@ -2,11 +2,11 @@
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
@@ -21,17 +21,17 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page.
 
-### Screenshot
+#£ Screenshot
 
 ![](image.png)
 
-### Links
+# Link
 
-- Live Site URL: (https://miron-silviu.github.io/Clipboard-landing-page/)
+-[VIEW DEMO](https://miron-silviu.github.io/Clipboard-landing-page/)
 
 ## My process
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -39,6 +39,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
+## What I learned
 
 I this project I improved my skills regarding responsive design and also how to use better flexbox.
